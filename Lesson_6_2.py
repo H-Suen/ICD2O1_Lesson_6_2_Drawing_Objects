@@ -41,16 +41,16 @@ while running:
 
     # pygame.draw.line(screen, (255, 0, 0), [0,500], [700, 500], 300)
 
-    # pygame.draw.rect(screen, (135, 206, 235), [0, 0, 700, 170])
+    pygame.draw.rect(screen, (135, 206, 235), [0, 0, 700, 170])
 
-    # pygame.draw.rect(screen, (255, 183, 206), [0, 335, 700, 170])
+    pygame.draw.rect(screen, (255, 183, 206), [0, 335, 700, 170])
 
     # pygame.draw.ellipse(screen, (0, 0, 255), [0, 0, 250, 100], 3)
 
-    # pygame.draw.arc(screen, (255, 255, 0), [200, 150, 150, 150], 0.523599, 5.75959, 100)
-    # pygame.draw.circle(screen, (0, 0, 0), [300 , 180], 15, 70)
+    pygame.draw.arc(screen, (255, 255, 0), [275, 175, 150, 150], 0.523599, 5.75959, 100)
+    pygame.draw.circle(screen, (0, 0, 0), [375 , 200], 15, 70)
 
-    screen.blit(text, [300, 100])
+    # screen.blit(text, [300, 100])
 
     # Must be the last two lines of the game loop
     pygame.display.flip()
