@@ -11,7 +11,7 @@ HEIGHT = 500
 SIZE = (WIDTH, HEIGHT)
 
 screen = pygame.display.set_mode(SIZE)
-pygame.display.set_caption("My game")
+pygame.display.set_caption("Pacman Flag")
 # ---------------------------
 
 # Used to manage how fast the screen updates
@@ -41,9 +41,9 @@ while running:
 
     # pygame.draw.line(screen, (255, 0, 0), [0,500], [700, 500], 300)
 
-    pygame.draw.rect(screen, (135, 206, 235), [0, 0, 700, 170])
+    pygame.draw.rect(screen, (0, 200, 50), [0, 0, 700, 170])
 
-    pygame.draw.rect(screen, (255, 183, 206), [0, 335, 700, 170])
+    pygame.draw.rect(screen, (0, 0, 150), [0, 335, 700, 170])
 
     # pygame.draw.ellipse(screen, (0, 0, 255), [0, 0, 250, 100], 3)
 
